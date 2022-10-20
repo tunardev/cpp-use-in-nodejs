@@ -1,0 +1,15 @@
+{
+  "name": "cpp-use-in-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node-gyp rebuild && node index.js"
+  },
+  "devDependencies": {
+    "node-gyp": "^6.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.7.1"
+  }
+}
