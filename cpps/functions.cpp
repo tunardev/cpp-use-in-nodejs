@@ -1,7 +1,7 @@
 #include <napi.h>
 using namespace Napi;
 
-Number SendText(const CallbackInfo &info)
+Number Sum(const CallbackInfo &info)
 {
     Env env = info.Env();
     Number x = info[0].As<Number>();

@@ -5,7 +5,7 @@ using namespace Napi;
 
 Object InitAll(Env env, Object exports)
 {
-    exports.Set("sum", Function::New(env, SendText));
+    exports.Set("sum", Function::New(env, Sum));
     return exports;
 }
 
